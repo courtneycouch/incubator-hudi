@@ -61,6 +61,26 @@
     }
   },
   {
+    "name" : "tip_history",
+    "type" : {
+      "type" : "array",
+      "items" : {
+        "type" : "record",
+        "name" : "tip",
+        "fields" : [
+          {
+            "name" : "amount",
+            "type" : "double"
+          },
+          {
+            "name" : "currency",
+            "type" : "string"
+          }
+        ]
+      }
+    }
+  },
+  {
      "name" : "_hoodie_is_deleted",
      "type" : "boolean",
      "default" : false
